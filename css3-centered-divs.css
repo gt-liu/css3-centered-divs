@@ -1,0 +1,27 @@
+/* CSS3-Centered-Divs
+ * ------------------
+ * Author: Guanting Liu
+ * Date: June 12th, 2015
+ * License: MIT
+ * Terms of use:
+ *		Please note that I am not liable for any bad results from using it.
+ *
+ * Reference:
+ * 		Centering in CSS: A Complete Guide
+ * 		https://css-tricks.com/centering-css-complete-guide/
+ */
+
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vertically-centered-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
